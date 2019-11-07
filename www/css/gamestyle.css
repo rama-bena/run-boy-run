@@ -1,0 +1,23 @@
+#gameScreen {
+    position: relative;
+    background-image: url("../images/background/BG.png");
+    background-size: 100% auto;
+    height: 360px auto;
+    width: 640px auto;
+    margin: 0 auto;
+    }
+    #cnv {
+    width: 100%;
+    }
+    #controller {
+    width: 100%;
+    padding: 10px;
+    }
+    #pauseImg{
+    width: 8%;
+    display: flexbox;
+    }
+    #restartImg{
+        width: 8%;
+        display: flexbox;
+    }

@@ -8,7 +8,9 @@
 
 ### Desktop
 
-In your browser, open the file:
+1. Download all the files
+2. Open the file using your favorite browser:
 
-    /www/index.html
+     /www/index.html
 
+3. There are so many bugs, perhaps in the future i will fix it

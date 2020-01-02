@@ -42,8 +42,7 @@
     
         //pressed pause button
         document.getElementById('pauseImg').onmouseup = function () {
-            document.getElementById('pauseImg').src =
-                "images/pause.png";
+            document.getElementById('pauseImg').src = "images/pause.png";
             pause();
         };
         document.getElementById('pauseImg').onmousedown = function () {
@@ -134,19 +133,17 @@
             gameOver = "Game Over";
             setTimeout(stopAnimation, 400);
             
-            document.getElementById('restartImg').style.display='block';
+            var restartImage = document.getElementById('restartImg');
+            restartImage.style.display = 'inline';
+            restartImage.src = 'icons/arrow-clockwise.svg'; 
+
             // pressed restart button
-            document.getElementById('restartImg').onmouseup = function () {
-                document.getElementById('restartImg').src =
-                    "images/pause.png";
+            document.getElementById('restartImg').onclick = function () {
                 restart();
-            };
-            document.getElementById('restartImg').onmousedown = function () {
-                document.getElementById('restartImg').src =
-                    "images/pause_pressed.png";
             };
         }
     }
+
     function stopAnimation() {
         cancelAnimationFrame(animation);
     }

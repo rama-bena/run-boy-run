@@ -1,5 +1,3 @@
-# A Blank PhoneGap App
-
 ## Usage
 
 ### PhoneGap CLI
@@ -9,8 +7,14 @@
 ### Desktop
 
 1. Download all the files
-2. Open the file using your favorite browser:
+2. Open this file "/www/index.html" using your favorite browser
 
-     /www/index.html
 
-3. There are so many bugs, perhaps in the future i will fix it
+## How to Play
+
+<ul>
+    <li>There are knight and zombies, you have to kill all zombies by tap and don't kill the knight</li>
+    <li>You only have 3 lives</li>
+    <li>The longer you last the higher the level and faster. </li>
+    <li>There are so many bugs, perhaps in the future i will fix it</li>
+</ul>
